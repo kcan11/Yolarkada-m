@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO tags -->
+    <meta name="description" content="Yol Arkadaşım: Kişisel gelişim, yazılım, müzik, tasarım ve yaşam becerileri için kişiselleştirilmiş zeki öğrenme platformu.">
+    <meta name="keywords" content="öğrenme, kişisel gelişim, kurs, yazılım öğren, yetenek">
+    <title>Yol Arkadaşım | Akıllı Öğrenme Yolculuğun</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Full Screen Loader Overlay -->
+    <div id="startup-loader" class="startup-loader">
+        <div class="loader-spinner"></div>
+        <p>Yol Arkadaşın Hazırlanıyor...</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar hidden" id="main-navbar">
+        <div class="nav-brand" id="btn-home" aria-label="Ana Sayfaya Dön" tabindex="0">
+            <i class="fas fa-compass brand-icon"></i> 
+            <span class="brand-text">Yol Arkadaşım</span>
+        </div>
+        
+        <div class="nav-search">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search-input" placeholder="Yetenek, kategori veya his keşfet... (Örn: Gitar, Kod)">
+        </div>
+
+        <div class="nav-features">
+            <button class="icon-btn" id="btn-daily-wow" title="Bugün Ne Yapmalıyım?" aria-label="Bugün Ne Yapmalıyım?"><i class="fas fa-bolt" style="color: #f59e0b;"></i></button>
+            <button class="icon-btn" id="btn-disiplin" title="Disiplin Modu" aria-label="Disiplin Modu"><i class="fas fa-lock-open"></i></button>
+            <button class="icon-btn" id="btn-mood" title="Moduma Göre Seç" aria-label="Moduma Göre Seç"><i class="fas fa-masks-theater"></i></button>
+            <button class="icon-btn" id="btn-random" title="Evren Seçsin (Beni Şaşırt!)" aria-label="Rastgele Seç"><i class="fas fa-dice"></i></button>
+            <button class="icon-btn" id="btn-badges" title="Başarı Duvarım" aria-label="Rozetler"><i class="fas fa-trophy"></i></button>
+            <button class="icon-btn" id="btn-darkmode" title="Gece / Gündüz" aria-label="Tema Değiştir"><i class="fas fa-moon"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Search (Visible only on mobile) -->
+    <div class="mobile-search hidden" id="mobile-search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" id="mobile-search-input" placeholder="Ne öğrenmek istiyorsun?">
+    </div>
+
+    <div id="app-container" class="hidden">
+        <!-- Home View -->
+        <div id="home-view" class="view active">
+            
+            <div id="welcome-section">
+                <!-- Advanced Hero Area -->
+                <header class="hero-section">
+                    <div class="hero-content">
+                        <div class="hero-badge">Yolculuğun Başlıyor</div>
+                        <h1 class="hero-title">Senin İçin Tasarlanmış <span>Akıllı</span> Öğrenme Rehberi</h1>
+                        <p class="hero-desc">Becerilerini geliştirmek, motivasyon bulmak ve sorunlarına anında çözüm üretmek için buradayız. Her gün bir adım ileri.</p>
+                        <div class="hero-stats">
+                            <div class="stat-box">
+                                <i class="fas fa-book-open"></i>
+                                <div class="stat-info">
+                                    <span class="stat-val" id="stat-courses">- Eğitim</span>
+                                    <span class="stat-label">Keşfedilmeyi Bekliyor</span>
+                                </div>
+                            </div>
+                            <div class="stat-box highlighted-stat" id="stat-level-box">
+                                <i class="fas fa-crown" style="color: #fbbf24;"></i>
+                                <div class="stat-info">
+                                    <span class="stat-val" id="stat-level">Seviye 1</span>
+                                    <span class="stat-label" id="stat-xp">0 / 100 XP</span>
+                                </div>
+                            </div>
+                            <div class="stat-box highlighted-stat" id="stat-streak-box">
+                                <i class="fas fa-fire"></i>
+                                <div class="stat-info">
+                                    <span class="stat-val" id="stat-streak">0 Günlük Seri</span>
+                                    <span class="stat-label">Kararlılık Ateşi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Daily Wow Block (Very prominent) -->
+                <section class="dashboard-widgets" style="margin-bottom:2rem;">
+                    <div class="widget-card" style="border: 2px solid var(--primary); background: linear-gradient(135deg, var(--card-bg), var(--primary-light)); grid-column: 1/-1;">
+                        <div class="widget-content">
+                            <h4 style="color:var(--primary); font-size:0.9rem; font-weight:800; letter-spacing:2px;"> BUGÜN SENİN İÇİN</h4>
+                            <h3 id="wow-block-text" style="font-size:1.7rem; font-weight:900; margin-top:0.5rem;">Seni bekleyen bir görev var.</h3>
+                            <p style="color:var(--text-muted); font-size:1.05rem;" id="wow-block-desc">Özel hesaplanan hedefin hazır.</p>
+                            <div style="margin-top:1.5rem; display:flex; gap:1rem; align-items:center;">
+                                <button class="btn btn-primary" id="wow-block-btn"><i class="fas fa-play"></i> Hemen Başla</button>
+                                <span id="wow-block-course" style="font-weight:700;">-</span>
+                            </div>
+                        </div>
+                        <div style="font-size: 5rem; color: var(--primary); opacity: 0.1; position: absolute; right: 2rem; top: 1rem;"><i class="fas fa-bolt"></i></div>
+                    </div>
+                </section>
+
+                <!-- Dashboard (Widgets) -->
+                <section class="dashboard-widgets">
+                    <!-- Resume / Continue Card -->
+                    <div class="widget-card hidden" id="resume-card">
+                        <div class="widget-icon"><i class="fas fa-play-circle"></i></div>
+                        <div class="widget-content">
+                            <h4>Kaldığın Yerden Devam Et</h4>
+                            <h3 id="resume-course-name">-</h3>
+                            <p id="resume-course-progress" class="progress-info">% 0 Tamamlandı</p>
+                        </div>
+                        <button class="widget-btn" id="resume-btn-trigger">Devam <i class="fas fa-arrow-right"></i></button>
+                    </div>
+
+                    <!-- Premium Ad Banner Placeholder -->
+                    <div class="widget-card premium-banner-card" style="border-left: 4px solid #8b5cf6; position:relative; overflow:hidden;">
+                        <div class="widget-icon" style="background: rgba(139, 92, 246, 0.1); color: #8b5cf6;"><i class="fas fa-gem"></i></div>
+                        <div class="widget-content">
+                            <h4>Yol Arkadaşım Premium <span style="background:#8b5cf6; color:white; font-size:0.6rem; padding:0.2rem 0.4rem; border-radius:4px; margin-left:0.5rem;">YENİ</span></h4>
+                            <h3 style="color: #8b5cf6;">Kişisel Analiz Raporunu Aç</h3>
+                            <p style="font-size:0.85rem; color:var(--text-muted);">Sadece sana özel derin analiz, haftalık zayıf/güçlü yön tespiti ve reklamsız deneyim.</p>
+                        </div>
+                        <button class="widget-btn" style="color: #8b5cf6; background: rgba(139, 92, 246, 0.1); padding:0.5rem 1rem; border-radius:8px; margin-top:0.5rem;">İncele <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    
+                    <!-- Haftalık Rapor Widget -->
+                    <div class="widget-card hidden" id="weekly-report-card" style="border-left: 4px solid #10b981;">
+                        <div class="widget-icon" style="background: rgba(16, 185, 129, 0.1); color: #10b981;"><i class="fas fa-chart-line"></i></div>
+                        <div class="widget-content">
+                            <h4>Haftalık İlerleme Raporu</h4>
+                            <h3 style="color: #10b981;">Sen Gelişiyorsun!</h3>
+                            <p style="font-size:0.85rem; margin-top:0.3rem;"><strong id="report-best">...</strong> alanında parlarken, <strong id="report-weak">...</strong> kısmında biraz zorlandın.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="dashboard-widgets">
+                    <!-- Daily Missions V3 -->
+                    <div id="missions-container" class="missions-grid">
+                        <!-- Rendered by MissionEngine -->
+                    </div>
+                    
+                    <!-- Ghost Social Leaderboard -->
+                    <div id="leaderboard-container" class="leaderboard-widget">
+                        <!-- Rendered by SocialEngine -->
+                    </div>
+                </section>
+                
+                <!-- Roadmap AI Input Section -->
+                <section id="ai-roadmap-section" class="roadmap-input-section">
+                    <h2>Yapay Zeka Yaşam Analiz Aracı 🧠</h2>
+                    <p>İçinden geçenleri, sorunlarını veya hedeflerini özgürce yaz. Sana ücretsiz kişisel profil analizi ve gelişim planı verelim.</p>
+                    <div class="roadmap-input-box">
+                        <textarea id="ai-roadmap-input" placeholder="Örn: motivasyonum yok, zamanımı iyi yönetemiyorum, kodlamaya başlamak istiyorum..."></textarea>
+                        <button class="btn btn-primary" id="btn-generate-roadmap"><i class="fas fa-magic"></i> Profilimi Analiz Et</button>
+                    </div>
+                </section>
+
+                <!-- Roadmap Result Section -->
+                <section id="roadmap-result-section" class="content-section hidden">
+                    <div class="section-title">
+                        <h2 id="roadmap-title">Senin İçin Özel Yol Haritası 🚀</h2>
+                        <p>Sorunlarını analiz ettik ve tamamen sana özel bu adımları belirledik.</p>
+                    </div>
+                    <div id="roadmap-cards-container" class="dashboard-widgets">
+                        <!-- Dynamic Roadmap Cards -->
+                    </div>
+                    <div style="text-align: center; margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <button class="btn btn-primary" id="btn-save-roadmap"><i class="fas fa-save"></i> Bu Planı Kaydet</button>
+                        <button class="btn btn-secondary" id="btn-share-roadmap" style="background:var(--primary-light); color:var(--primary);"><i class="fab fa-tiktok"></i> / <i class="fab fa-instagram"></i> Planımı Paylaş</button>
+                    </div>
+                </section>
+
+                <!-- Recommended Section -->
+                <section id="recommended-section" class="content-section hidden">
+                    <div class="section-title">
+                        <h2>Senin İçin Önerilenler 💫</h2>
+                        <p>Kişisel geçmişin, zorlandığın alanlar ve aktifliğine göre puanlandı.</p>
+                    </div>
+                    <div class="categories" id="recommended-container">
+                        <!-- JS renders here -->
+                    </div>
+                    <div style="margin-top:2rem;">
+                        <div class="section-title">
+                            <h2>Bunu da Sevebilirsin 🎯</h2>
+                            <p>Senin için ilginç bir macera olabileceğini düşündüm.</p>
+                        </div>
+                        <div class="categories" id="explore-container">
+                            <!-- Explore JS renders here -->
+                        </div>
+                    </div>
+                    <div style="text-align:center; margin-top: 1.5rem;">
+                        <button class="btn btn-secondary" onclick="window.RecommendationEngineInstance.renderBoredMode()">Sıkıldın mı? Başka Bir Şey Öner 🎲</button>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Search specific messages -->
+            <div id="search-suggestions"></div>
+
+            <!-- Main Categories List -->
+            <section class="content-section">
+                <div class="section-title" id="all-categories-title">
+                    <h2>Tüm Yolculuklar 🌍</h2>
+                    <p>İstediğin alanı seç, hemen başlayalım.</p>
+                </div>
+                <main class="categories" id="categories-container">
+                    <!-- JS renders here -->
+                </main>
+            </section>
+            
+            <!-- Trust block -->
+            <section class="trust-section">
+                <div class="trust-header">Neden Yol Arkadaşım?</div>
+                <div class="trust-grid">
+                    <div class="trust-item">
+                        <i class="fas fa-brain"></i>
+                        <h4>Akıllı Rehberlik</h4>
+                        <p>Karşılaştığın engelleri aşman için özel olarak geliştirilmiş problem çözücü algoritma.</p>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-bolt"></i>
+                        <h4>Mikro Öğrenme</h4>
+                        <p>Uzun ve sıkıcı videolar yerine saniyeler içinde tüketilebilen odaklı yüksek değer.</p>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-shield-halved"></i>
+                        <h4>Güvenli Liman</h4>
+                        <p>Yargılanma korkusu olmadan, tamamen sana özel, yerel ve kalıcı ilerleme takibi.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Course View -->
+        <div id="course-view" class="view">
+            <header class="course-header">
+                <button id="btn-back" aria-label="Geri Dön"><i class="fas fa-arrow-left"></i> Geri Seçim Ekranı</button>
+                <div class="course-title-box">
+                    <h2 id="course-title">-</h2>
+                </div>
+            </header>
+
+            <div class="progress-bar-container">
+                <div class="progress-meta">
+                    <span class="progress-label">İlerleme:</span>
+                    <span class="progress-numbers">Adım <span id="current-step-num" class="highlight-step">1</span> / <span id="total-step-num">-</span></span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <main class="step-container">
+                <h3 id="step-title" class="step-title">-</h3>
+                
+                <!-- Smart Summary Box -->
+                <div class="step-summary hidden">
+                    <div class="summary-item">
+                        <div class="sum-icon"><i class="fas fa-crosshairs"></i></div>
+                        <div class="sum-texts"><span>Ne Öğreneceksin:</span><strong id="summary-what">-</strong></div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="sum-icon"><i class="fas fa-hourglass-half"></i></div>
+                        <div class="sum-texts"><span>Maksimum Süre:</span><strong id="summary-time">-</strong></div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="sum-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="sum-texts"><span>Neden Önemli:</span><strong id="summary-why">-</strong></div>
+                    </div>
+                </div>
+
+                <div id="step-content" class="step-content">
+                    <!-- Adım içeriği -->
+                </div>
+
+                <div class="step-feedback-zone">
+                    <p class="feedback-title">Bu adım nasıldı?</p>
+                    <div class="feedback-buttons">
+                        <button class="btn-feedback" data-val="kolay">Çok Kolay 🥱</button>
+                        <button class="btn-feedback" data-val="iyi">Tam Kıvamındaydı 👍</button>
+                        <button class="btn-feedback" data-val="zor">Biraz Zorlandım 🧠</button>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="btn-problem" class="btn btn-secondary action-btn-large">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                        <span>Takıldın mı?<br><small>Akıllı Çözüm İste</small></span>
+                    </button>
+                    <button id="btn-next" class="btn btn-primary action-btn-large">
+                        Tamamladım, İleri! 🎉
+                    </button>
+                </div>
+
+                <!-- In-Course Ad Banner Placeholder -->
+                <div style="background:var(--card-bg); border:1px solid rgba(148,163,184,0.2); border-radius:12px; padding:1rem; text-align:center; margin-top:2rem;">
+                    <small style="color:var(--text-muted); display:block; margin-bottom:0.5rem;">SPONSORLU İÇERİK</small>
+                    <div style="font-weight:bold; color:var(--primary);">Hızlanmak İster Misin?</div>
+                    <p style="font-size:0.85rem; color:var(--text-muted); margin-top:0.5rem;">Zamanını daha verimli kullanmak için Yol Arkadaşım Premium'a geç, bu reklamları görme.</p>
+                </div>
+
+                <!-- Related Courses injected dynamically -->
+                <div id="related-courses-container" class="hidden" style="margin-top: 3rem; border-top: 2px dashed rgba(148,163,184,0.2); padding-top: 2rem;">
+                    <h3><i class="fas fa-link"></i> Bunu Bitirdin, Şimdi Şunları Dene:</h3>
+                    <div class="dashboard-widgets" id="related-cards" style="margin-top: 1.5rem;"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Modal (Problem Solver) -->
+    <div id="problem-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content solver-modal">
+            <button class="close-btn" aria-label="Kapat">&times;</button>
+            <div class="modal-header">
+                <h3>Bana Nerede Takıldığını Anlat 💬</h3>
+                <p>Kelimelere takılma, sadece sorunu yaz. Beraber çözelim.</p>
+            </div>
+            <textarea id="problem-input" placeholder="Örn: Parmaklarım yara oldu, ses boğuk çıkıyor..."></textarea>
+            <button id="btn-solve" class="btn btn-primary btn-full"><i class="fas fa-bolt"></i> Akıllı Çözüm Bul</button>
+            
+            <div id="solution-box" class="solution-box hidden">
+                <h4><div class="ai-avatar"><i class="fas fa-robot"></i></div> Rehberin Diyor ki:</h4>
+                <p id="solution-text" class="sol-text"></p>
+                
+                <div class="solver-feedback-box hidden" id="solver-feedback-box">
+                    <p>Bu çözüm işe yaradı mı?</p>
+                    <div class="solver-actions" style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:1rem;">
+                        <button class="btn btn-sm btn-yes" id="btn-solver-yes"><i class="fas fa-check"></i> Evet</button>
+                        <button class="btn btn-sm btn-no" id="btn-solver-no"><i class="fas fa-random"></i> Başka Yöntem</button>
+                        <button class="btn btn-sm" id="btn-solver-easy" style="background:#eab308; color:white; border:none;"><i class="fas fa-baby"></i> En Kolay Yol</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (Badges Wall) -->
+    <div id="badges-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content badges-modal">
+            <button class="close-btn" aria-label="Kapat">&times;</button>
+            <div class="modal-header">
+                <h3>Başarı Duvarın 🏆</h3>
+                <p>Kazandığın her zafer, attığın her adım burada parlıyor.</p>
+            </div>
+            <div id="badges-container" class="badges-grid">
+                <!-- JS renders here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (Mood Guide) -->
+    <div id="mood-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content mood-modal">
+            <button class="close-btn" aria-label="Kapat">&times;</button>
+            <div class="modal-header">
+                <h3>Nasıl Hissediyorsun? 🎭</h3>
+                <p>Sadece öğrenmek için değil, enerjine uygun bir yol çizmek için buradayız.</p>
+            </div>
+            <div class="mood-buttons">
+                <button class="btn btn-mood-select" data-mood="enerjik">
+                    <div class="mood-icon">🔥</div>
+                    <div class="mood-txt">
+                        <strong>Çok Enerjiğim!</strong>
+                        <span>Zorluklara meydan okumaya hazırım.</span>
+                    </div>
+                </button>
+                <button class="btn btn-mood-select" data-mood="yorgun">
+                    <div class="mood-icon">☕</div>
+                    <div class="mood-txt">
+                        <strong>Biraz Yorgunum</strong>
+                        <span>Beni zorlamayacak, sakin şeyler lazım.</span>
+                    </div>
+                </button>
+                <button class="btn btn-mood-select" data-mood="sakin">
+                    <div class="mood-icon">🧘‍♀️</div>
+                    <div class="mood-txt">
+                        <strong>Sakin ve Odaklıyım</strong>
+                        <span>Derin çalışmaya hazırım.</span>
+                    </div>
+                </button>
+                <button class="btn btn-mood-select" data-mood="hepsi">
+                    <div class="mood-icon">🌍</div>
+                    <div class="mood-txt">
+                        <strong>Kriterim Yok</strong>
+                        <span>Bütün duvarları yık, her şeye açığım.</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (Daily Wow) -->
+    <div id="wow-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content onboarding-card">
+            <button class="close-btn" aria-label="Kapat">&times;</button>
+            <div class="onboarding-icon" style="color: #f59e0b;"><i class="fas fa-bolt"></i></div>
+            <h2>Bugünün Tavsiyesi</h2>
+            <p id="wow-plan-text" style="font-size: 1.1rem; line-height: 1.6;"></p>
+            <button class="btn btn-primary btn-full" id="btn-wow-go" style="background: #f59e0b;">Hemen Başla</button>
+        </div>
+    </div>
+
+    <!-- Onboarding Modal -->
+    <div id="onboarding-modal" class="modal modal-blur" role="dialog" aria-modal="true">
+        <div class="modal-content onboarding-card">
+            <div class="onboarding-icon"><i class="fas fa-seedling"></i></div>
+            <h2>Hoş Geldin, Yolcu.</h2>
+            <p>Burası sadece videoları izleyip geçtiğin bir yer değil. Beraber bir şeyler başardığımız, takıldığında konuştuğumuz kendi kişisel kampın.<br><br>Başlamadan önce bilmen gereken tek kural var: <strong>Hata yapmak serbest.</strong></p>
+            <button class="btn btn-primary btn-full" id="btn-finish-onboarding">Yolculuğu Başlat 🚀</button>
+        </div>
+    </div>
+
+    <!-- Hook Alert Modal -->
+    <div id="hook-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content onboarding-card" style="border: 2px solid #ef4444;">
+            <button class="close-btn" aria-label="Kapat">&times;</button>
+            <div class="onboarding-icon" style="color: #ef4444;"><i class="fas fa-exclamation-triangle"></i></div>
+            <h2>Serin Tehlikede!</h2>
+            <p>Eğer bugün bir adım bile atmazsan tüm ilerleyişin ve ateş serin kaybolacak. Zoru başarmak istiyorsan ertelemeyi bırakmalısın!</p>
+            <button class="btn btn-primary btn-full" id="btn-hook-go" style="background: #ef4444;">Seviyemi Koru & Görevi Yap</button>
+        </div>
+    </div>
+
+    <!-- Viral Share Modal -->
+    <div id="viral-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content onboarding-card">
+            <button class="close-btn" aria-label="Kapat">&times;</button>
+            <div class="onboarding-icon" style="color: #8b5cf6;"><i class="fas fa-camera-retro"></i></div>
+            <h2>Yaşam Analizin Hazır</h2>
+            <p>Sosyal medyada paylaşman için şık bir "Kişisel Gelişim Planı" kartı oluşturduk. Linki kopyala ve hikayene ekle!</p>
+            
+            <div id="viral-card-preview" style="background: linear-gradient(135deg, #1e293b, #0f172a); border: 2px solid var(--primary); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; text-align:left; position:relative; overflow:hidden;">
+                <div style="position:absolute; top:-20px; right:-20px; font-size:6rem; opacity:0.05; color:var(--primary);"><i class="fas fa-compass"></i></div>
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:1rem;">
+                    <div style="font-weight:900; color:white; font-size:1.2rem;">Yol Arkadaşım</div>
+                    <div style="background:var(--primary); color:white; padding:0.2rem 0.6rem; border-radius:20px; font-size:0.8rem; font-weight:bold;">#Hedefim</div>
+                </div>
+                <h3 id="viral-card-title" style="color:var(--primary-light); margin-bottom:0.5rem;">Daha Disiplinli Olmak</h3>
+                <div id="viral-card-steps" style="color:var(--text-muted); font-size:0.9rem; line-height:1.6; margin-bottom:1rem;">
+                    1. Zaman Yönetimi<br>2. Derin Odaklanma<br>3. Sabah Rutini
+                </div>
+                <div style="display:flex; gap:1rem; margin-top:1rem;">
+                    <div style="background:rgba(255,255,255,0.05); padding:0.5rem 1rem; border-radius:8px; display:flex; align-items:center; gap:0.5rem;">
+                        <i class="fas fa-fire" style="color:#ef4444;"></i> <span id="viral-card-streak" style="color:white; font-weight:bold;">5 Gün</span>
+                    </div>
+                    <div style="background:rgba(255,255,255,0.05); padding:0.5rem 1rem; border-radius:8px; display:flex; align-items:center; gap:0.5rem;">
+                        <i class="fas fa-crown" style="color:#fbbf24;"></i> <span id="viral-card-level" style="color:white; font-weight:bold;">Seviye 2</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background: var(--input-bg); padding: 1rem; border-radius: 12px; margin-bottom: 1rem; font-weight:800; color: var(--primary);">
+                👉 yolarkadasim.com/share/X8B2
+            </div>
+            <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                <button class="btn btn-primary btn-full" id="btn-viral-copy" style="background: #8b5cf6;"><i class="fas fa-copy"></i> Linki Kopyala</button>
+                <button class="btn btn-secondary btn-full" id="btn-viral-download"><i class="fas fa-download"></i> Resim Olarak İndir (PNG)</button>
+                <button class="btn btn-secondary btn-full" id="btn-viral-story" style="background:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color:white; border:none;"><i class="fab fa-instagram"></i> Hikaye Olarak Paylaş</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modular Scripts -->
+    <script src="js/store.js"></script>
+    <script src="js/smartEngines.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/solver.js"></script>
+    <script src="js/roadmapEngine.js"></script>
+    <script src="js/recommendationEngine.js"></script>
+    <script src="js/brainEngine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

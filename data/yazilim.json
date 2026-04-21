@@ -1,0 +1,95 @@
+{
+  "id": "yazilim",
+  "icon": "💻",
+  "title": "Yazılıma Başlamak",
+  "desc": "Kendi internet sitenizi kodlayarak yazılım dünyasının kapılarını aralayın.",
+  "tags": [
+    "enerjik",
+    "odaklı",
+    "yazılım",
+    "kod",
+    "bilgisayar",
+    "meraklı"
+  ],
+  "difficulty": "Başlangıç",
+  "duration": "1 Saat",
+  "categoryType": "Teknoloji",
+  "steps": [
+    {
+      "title": "Adım 1: İnternetin İskeleti (HTML)",
+      "summary": {
+        "what": "HTML ile web sayfasının omurgasını kurmayı",
+        "duration": "15 Dk",
+        "why": "İnternetteki her şeyin temeli HTML'dir."
+      },
+      "content": "<p>Her web sitesinin altında yatan yegane dil HTML'dir. Tarayıcıya nerede ne duracağını söyler.</p>\n                          <p>Hemen şimdi \"Not Defteri\"ni aç. İçine şunu yaz:</p>\n                          <p><code>&lt;h1&gt;Merhaba Dünya!&lt;/h1&gt;</code></p>\n                          <p>Sonra \"Farklı Kaydet\"e tıkla. Dosya adını <b>ilk-sitem.html</b> yap. Dosyaya çift tıklayarak tarayıcında aç.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "txt",
+            "görünmüyor",
+            "kod",
+            "metin",
+            "chrome"
+          ],
+          "answer": "Kodu çalışmak yerine metin olarak okuyorsan sebebi dosya uzantısını '.txt' kaydetmendir. 'Tüm Dosyalar' özelliğini seçip tekrar .html uzantısıyla kaydet!",
+          "alt": "Not defteri yerine VS Code adlı ücretsiz programı indirirsen kodların renklenir ve bu hataları engeller."
+        }
+      ],
+      "fallback": "Bilgisayarlar inatçı ve saf makinelerdir. Virgülüne kadar kontrol et."
+    },
+    {
+      "title": "Adım 2: Güzelleştirme Sanatı (CSS)",
+      "summary": {
+        "what": "CSS ile siteni makyajlamayı",
+        "duration": "20 Dk",
+        "why": "Düz metin kimsenin ilgisini çekmez, tasarım her şeydir."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Hemen şimdi telefonunu sessize al ve bu adımda öğrendiğini 2 dakika pratik yap.</p><p>HTML iskeletse, CSS boyasıdır.</p>\n                          <p>Not defterini aç ve etiketini şu şekilde güncelle:</p>\n                          <p><code>&lt;h1 style=\"color: red;\"&gt;Merhaba Dünya!&lt;/h1&gt;</code></p>\n                          <p>Kaydet ve tarayıcıda yenile. Rengin kırmızıya döndüğünü göreceksin.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "renk",
+            "kırmızı",
+            "çalışmıyor",
+            "değişmedi",
+            "bozuk"
+          ],
+          "answer": "Tırnak işaretlerine çok dikkat et! İki nokta (:) noktalı virgül (;) ve tırnak işaretleri (\") eksiksiz konmalıdır.",
+          "alt": "Tarayıcında sayfayı yenilemeyi (F5) veya dosyayı kaydetmeyi (CTRL+S) unutmuş olabilirsin."
+        }
+      ],
+      "fallback": "Eğer sayfanda hata varsa, gözlerini kıs koduna dikkatlice bak."
+    },
+    {
+      "title": "Adım 3: Sihir ve Etkileşim (JavaScript)",
+      "summary": {
+        "what": "JavaScript ile siteye can vermeyi",
+        "duration": "25 Dk",
+        "why": "Modern sitelerin etkileşimli olmasını sağlayan beyin JS'dir."
+      },
+      "content": "<p>İskelet (HTML) ve Boya (CSS) tamam. Düğmeye basınca lambanın yanması? Bu <b>JavaScript</b>'tir.</p>\n                          <p>Sayfana bir buton ekleyelim:</p>\n                          <p><code>&lt;button onclick=\"alert('Uyandın!')\"&gt;Bana Tıkla&lt;/button&gt;</code></p>\n                          <p>Sayfayı yenile ve butona tıkla. Siten seninle konuşmaya başladı!</p>",
+      "problems": [
+        {
+          "keywords": [
+            "buton",
+            "basılmıyor",
+            "çıkmıyor",
+            "uyarı",
+            "alert"
+          ],
+          "answer": "Eğer buton çıkmıyorsa <button> etiketini kapatmamışsındır. onclick içindeki alert tek tırnakla (') sarmalanmalıdır!",
+          "alt": "Sayfana sağ tıklayıp 'İncele' (Inspect) de, 'Console' sekmesine bak. Oradaki kırmızı yazılar sana nerede hata yaptığını söyler."
+        }
+      ],
+      "fallback": "Yazılımcılığın %90'ı nerede hata yaptığını aramaktır (Debugging). Hatanın üzerine cesurca yürü!"
+    }
+  ],
+  "relatedCourses": [
+    "diksiyon",
+    "gitar"
+  ],
+  "difficultyLevel": "Başlangıç",
+  "skillPath": "General",
+  "categoryCluster": "Teknoloji"
+}

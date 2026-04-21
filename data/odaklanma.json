@@ -1,0 +1,85 @@
+{
+  "id": "odaklanma",
+  "icon": "🎯",
+  "title": "Derin Odaklanma (Deep Work)",
+  "desc": "Dikkat dağıtıcıları yok et ve lazer gibi odaklan.",
+  "tags": [
+    "odaklı",
+    "çalışma",
+    "verimlilik",
+    "başarı"
+  ],
+  "difficulty": "Orta",
+  "duration": "35 Dk",
+  "categoryType": "Verimlilik",
+  "steps": [
+    {
+      "title": "Adım 1: Ortam Tasarımı",
+      "summary": {
+        "what": "Masayı dikkat dağıtıcılardan arındırmayı",
+        "duration": "10 Dk",
+        "why": "Görsel gürültü zihinsel gürültü yaratır."
+      },
+      "content": "<p>Masandaki telefon, tablet, gereksiz kağıtları görüş alanından kaldır. Sadece tek bir göreve ait materyaller kalsın.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "dağınık",
+            "toplayamıyorum"
+          ],
+          "answer": "Tüm eşyaları bir kutuya at ve o an için sadece gerekeni çıkar.",
+          "alt": "Kütüphane veya kafe gibi farklı bir ortama git."
+        }
+      ],
+      "fallback": "Fiziksel alan, zihinsel alandır."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Dijital Diyet)",
+      "summary": {
+        "what": "Bildirim terörünü durdurmayı",
+        "duration": "10 Dk",
+        "why": "Her bildirim seni odaklandığın andan 20 dakika geriye atar."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Telefonundaki SOSYAL MEDYA bildirimlerini tamamen kapat. Onlar seni değil, sen istediğinde onları kontrol et.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "önemli",
+            "haber",
+            "acil"
+          ],
+          "answer": "Gerçekten acilse ararlar. Bildirimler acil değil, sadece dikkat çekicidir.",
+          "alt": "Sadece odaklanma saatlerinde 'Rahatsız Etmeyin' modunu aç."
+        }
+      ],
+      "fallback": "Dikkatin senin en değerli para birimindir."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Düşünce Parkı)",
+      "summary": {
+        "what": "Akla gelen alakasız fikirleri yönetmeyi",
+        "duration": "15 Dk",
+        "why": "Çalışırken aklına gelen 'Şunu da yapmalıyım' düşüncesi odağı bozar."
+      },
+      "content": "<p>Yanında küçük bir not defteri bulundur. Odaklanırken aklına alakasız bir fikir gelirse hemen oraya yaz ve kafandan atıp işe geri dön.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "unuturum",
+            "çok var"
+          ],
+          "answer": "Yazdığın için unutmayacaksın, zihnin rahatlayacak.",
+          "alt": "Dijital bir not uygulaması kullan ama bu telefona bakmana sebep olabilir, dikkat et."
+        }
+      ],
+      "fallback": "Beyin fikir üretmek içindir, depolamak için değil."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Verimlilik"
+}

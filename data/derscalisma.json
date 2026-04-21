@@ -1,0 +1,84 @@
+{
+  "id": "derscalisma",
+  "icon": "📚",
+  "title": "Ders Çalışma Teknikleri",
+  "desc": "Saatlerce bakmak yerine beynini kodla.",
+  "tags": [
+    "odaklı",
+    "öğrenme",
+    "verimlilik",
+    "okul"
+  ],
+  "difficulty": "Orta",
+  "duration": "40 Dk",
+  "categoryType": "Verimlilik",
+  "steps": [
+    {
+      "title": "Adım 1: Feynman Tekniği",
+      "summary": {
+        "what": "Öğrendiğini 5 yaşındaki bir çocuğa anlatmayı",
+        "duration": "15 Dk",
+        "why": "Basitleştiremiyorsan anlamamışsındır."
+      },
+      "content": "<p>Bir konuyu öğren. Kitabı kapat. Sanki hiç bilmeyen birine anlatıyormuş gibi boş bir kağıda yazarak veya sesli şekilde anlat.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "takıldım",
+            "anlatamıyorum"
+          ],
+          "answer": "Takıldığın yer tam olarak eksiğin olduğu yerdir. Hemen kitaba dön ve o kısmı tekrar çalış.",
+          "alt": "Sadece arkadaşına ses kaydı atarak konuyu anlatmayı dene."
+        }
+      ],
+      "fallback": "Öğretmek en iyi öğrenmedir."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Aralıklı Tekrar)",
+      "summary": {
+        "what": "Unutma eğrisini yenmeyi",
+        "duration": "10 Dk",
+        "why": "Beyin kullanmadığı bilgiyi siler."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Dün öğrendiğin bir şeyi bugün 5 dakika tekrar et. Sonra 3 gün sonra, sonra 1 hafta sonra tekrar et.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "unutuyorum",
+            "hatırlamıyorum"
+          ],
+          "answer": "Anki veya Quizlet gibi dijital bilgi kartı uygulamalarını kullan.",
+          "alt": "Kendi not kartlarını (Flashcards) kağıttan hazırla."
+        }
+      ],
+      "fallback": "Sık tekrar her zaman işe yarar."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Aktif Hatırlama)",
+      "summary": {
+        "what": "Not okumayı bırakıp kendini test etmeyi",
+        "duration": "15 Dk",
+        "why": "Okumak pasiftir, hatırlamaya zorlamak aktiftir."
+      },
+      "content": "<p>Kitabı fosforlu kalemle çizmek yerine, kitaptaki başlıklardan sorular çıkar. Kitabı kapat ve soruları cevaplamaya çalış.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "zor",
+            "beynim yandı"
+          ],
+          "answer": "Zorlanmak, beyninde o an nöronların bağ kurduğunu gösterir. Çok iyi!",
+          "alt": "Test çözerek başla."
+        }
+      ],
+      "fallback": "Terlemeden kas yapılmaz."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "diksiyon"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Verimlilik"
+}

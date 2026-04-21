@@ -1,0 +1,78 @@
+{
+  "id": "yatirim",
+  "icon": "📈",
+  "title": "Yatırım ve Finans",
+  "desc": "Paranın senin için köle gibi çalışmasını sağla. Zaman en büyük silahın.",
+  "tags": [
+    "odaklı",
+    "sakin",
+    "finans",
+    "para",
+    "ekonomi",
+    "matematik"
+  ],
+  "difficulty": "Orta",
+  "duration": "50 Dk",
+  "categoryType": "Finans",
+  "steps": [
+    {
+      "title": "Adım 1: Gelir/Gider ve 'Önce Kendine Öde'",
+      "summary": {
+        "what": "Birikim refleksi oluşturmak",
+        "duration": "20 Dk",
+        "why": "Harcamalardan önce birikime öncelik vermek zenginliğin kuralıdır."
+      },
+      "content": "<p>Maaş yattığı an %10'unu hiç var olmamış gibi görünmez bir hesaba at...</p>",
+      "fallback": "Matematikten kaçmak durumu kötüleştirir."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Bütçe Analizi)",
+      "summary": {
+        "what": "Giderlerini yüzleşerek görmeyi",
+        "duration": "15 Dk",
+        "why": "Nereye gittiğini bilmediğin parayı yönetemezsin."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Son 1 ayın banka özetini aç. Hayatta kalmak için ZORUNLU olmayan tüm harcamaları işaretle (Dışarıda kahve, abonelikler vs). Toplamı gördüğünde şok olabilirsin.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "çok",
+            "fazla",
+            "üzücü"
+          ],
+          "answer": "Bu yüzleşme iyidir, kanamayı durdurmak için önce yarayı görmelisin.",
+          "alt": "Tüm abonelikleri iptal et. İhtiyacın olursa tekrar açarsın."
+        }
+      ],
+      "fallback": "Matematik yalan söylemez."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Bileşik Getiri)",
+      "summary": {
+        "what": "Paranın kar topu etkisini",
+        "duration": "15 Dk",
+        "why": "Zenginliğin sırrı bileşik getiridir."
+      },
+      "content": "<p>Paranı düzenli olarak yatırım fonlarına veya hisselere yönlendir. Gelen karı da ana paraya ekle. Bu katlanarak büyümeni sağlayacak.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "bilmiyorum",
+            "riskli",
+            "borsa"
+          ],
+          "answer": "En düşük riskli yatırım fonlarıyla (Örn: Para piyasası fonları) başla. Banka uygulamanı aç ve incele.",
+          "alt": "Altın almak en temel ve basit başlangıçtır."
+        }
+      ],
+      "fallback": "Başlamak bitirmenin yarısıdır."
+    }
+  ],
+  "relatedCourses": [
+    "diksiyon",
+    "gitar"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Finans"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "zamanyonetimi",
+  "icon": "⏳",
+  "title": "Zaman Yönetimi",
+  "desc": "Daha çok çalışarak değil, daha zekice bir planla günü ele geçir.",
+  "tags": [
+    "yorgun",
+    "odaklı",
+    "liderlik",
+    "verimlilik",
+    "planlama"
+  ],
+  "difficulty": "Tüm Seviyeler",
+  "duration": "30 Dk",
+  "categoryType": "Verimlilik",
+  "steps": [
+    {
+      "title": "Adım 1: Dopamin Tufanı ve Pomodoro",
+      "summary": {
+        "what": "Odaklanma sınırını korumayı (Pomodoro)",
+        "duration": "10 Dk",
+        "why": "Bölünmüş dikkat ile verimli olunmaz."
+      },
+      "content": "<p>Sorun zamanın olmaması değil, kısa vadeli hazların (Tiktok, Reels) odak reseptörlerimizi yakmasıdır.</p>\n                          <p>Klasik: <b>Pomodoro!</b> Telefonu odanın diğer ucuna koy (Ters şekilde uçak modunda). Bir zamanlayıcı aç. SADECE 25 dakika çalışacaksın.</p>\n                          <p>Beynine söz ver: \"Sadece 25 dk sıkılacağım sonra bakacağım.\" 25. Dakikanın sonunda beyninin odak akışına (Flow) geçtiğini göreceksin.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "sıkıntı",
+            "sıkılıyorum",
+            "bunaldım",
+            "patladım",
+            "dikkat",
+            "bakamıyorum"
+          ],
+          "answer": "Bu can sıkıntısı bir semptomdur. Zehrin dışarı çıkışıdır. Sıkıntıya tahammül ettiğin an lider olacaksın, devam et!",
+          "alt": "İlk günlerde 25 dakika bile uzun gelebilir. Sadece 15 dakikalık bloklar halinde kur, yavaş yavaş artır."
+        }
+      ],
+      "fallback": "10 saniye boyunca derin nefes al, saate bakmayı bırak ve önündeki kağıda kilitlen."
+    },
+    {
+      "title": "Adım 2: Eisenhower Matrisi (Aciliyet Yanılgısı)",
+      "summary": {
+        "what": "İşlerin önceliğini belirlemeyi",
+        "duration": "10 Dk",
+        "why": "Her şey acil olamaz, önemli olanı ayırmalıyız."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Hemen şimdi telefonunu sessize al ve bu adımda öğrendiğini 2 dakika pratik yap.</p><p>Dünyada her iş sana 'ACİL'miş gibi davranır. Seni panikletir. Buna düşme.</p>\n                          <p>Bir kağıdı 4 parçaya (artı işareti çizerek) böl. Kutular şöyle olacak:<br>\n                          1. Acil VE Önemli (Hemen şimdi YAP)<br>\n                          2. Acil Değil AMA Önemli (Takvime PLANLA - Spor yapmak, kod yazmak)<br>\n                          3. Acil AMA Önemli Değil (Başkasına DEVRET veya sonra yap)<br>\n                          4. Acil Değil VE Önemli Değil (Bunu direkt SİL - DM kontrol etmek)</p>",
+      "problems": [
+        {
+          "keywords": [
+            "hepsi acil",
+            "her şey öenmli",
+            "zaman yok",
+            "hepsi lazım"
+          ],
+          "answer": "Her şey acil diyorsan aslında hiçbir şeyin öncelikli olmadığını itiraf ediyorsundur. Geleceğini en çok etkileyecek olanı en başa al.",
+          "alt": "Bugün için sadece ve sadece EN ÖNEMLİ 1 Yegane görev belirle. O bitene kadar diğerlerine bakma."
+        }
+      ],
+      "fallback": "Zamanı kontrol edemezsin ama yapacağın işi kontrol edebilirsin."
+    },
+    {
+      "title": "Adım 3: Derin Çalışma (Deep Work)",
+      "summary": {
+        "what": "Gerçek ve kesintisiz üretkenlik alanını yaratmayı",
+        "duration": "10 Dk",
+        "why": "Multitasking zekayı düşürür, derin çalışma dehaların sırrıdır."
+      },
+      "content": "<p>Aynı anda hem müzik dinleyip, hem mesajlara cevap verip çalışmak zekanı bölmek demektir (Multi-tasking yalandır).</p>\n                          <p>İnsanın dikkatini bir objeden koparıp diğer objeye verdiğinde, beyninin geride kalıntıları kalır. İşler arasında atlama. Tek bir monitör sekmesi. Tek bir kalem. 1 Saat sadece o tünelde yürü.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "müzik",
+            "sessizlik",
+            "ses",
+            "arkaplan",
+            "uyku",
+            "gürültü"
+          ],
+          "answer": "Eğer sessizlikte uykun geliyorsa sadece lirik barındırmayan sözsüz şarkılar dinle (Beyaz gürültü, Lo-Fi, Brown noise).",
+          "alt": "Sesi izole eden güzel bir kulaklık veya kulak tıkacı odaklanma eşiğini 3 katına çıkarabilir."
+        }
+      ],
+      "fallback": "Bugünün dünyasında tek süper güç saatlerce odaklanıp dikkati dağılmamaktır."
+    }
+  ],
+  "relatedCourses": [
+    "diksiyon",
+    "gitar"
+  ],
+  "difficultyLevel": "Tüm Seviyeler",
+  "skillPath": "General",
+  "categoryCluster": "Verimlilik"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "modelleme",
+  "icon": "🧊",
+  "title": "3D Modelleme (Blender)",
+  "desc": "Kendi 3 boyutlu dünyanı ve karakterlerini yarat.",
+  "tags": [
+    "yaratıcı",
+    "odaklı",
+    "sanat",
+    "tasarım",
+    "bilgisayar"
+  ],
+  "difficulty": "Orta",
+  "duration": "1.5 Saat",
+  "categoryType": "Tasarım",
+  "steps": [
+    {
+      "title": "Adım 1: Küpün İçindeki Şaheser",
+      "summary": {
+        "what": "Blender temelleri",
+        "duration": "30 Dk",
+        "why": "Programın arayüzüne alışmak ve temeli kavramak."
+      },
+      "content": "<p>Ortada o meşhur Küp var. TAB tuşuna bas, G harfine bas...</p>",
+      "fallback": "Menüler karmaşık gelse de sana şimdilik sol tık yeter."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (İlk Eşyanı Yap)",
+      "summary": {
+        "what": "Blender'da bir kupa tasarlamayı",
+        "duration": "30 Dk",
+        "why": "Öğrendiğin araçları bir ürüne dönüştürmek motivasyonu katlar."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> O başlangıç küpünü sil. Bir 'Cylinder' (Silindir) ekle. Üst yüzeyini seçip 'I' tuşuyla içe doğru daralt, 'E' tuşuyla aşağı doğru iterek kupanın içini boşalt. Harikasın!</p>",
+      "problems": [
+        {
+          "keywords": [
+            "silindi",
+            "bozuldu",
+            "yanlış"
+          ],
+          "answer": "CTRL+Z senin en iyi dostun. Hata yaptıkça öğreneceksin.",
+          "alt": "Ekranı yanlışlıkla bozarsan yeni bir proje açmaktan çekinme."
+        }
+      ],
+      "fallback": "3D dünyası hatalarla güzel."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Işık ve Render)",
+      "summary": {
+        "what": "Tasarımına ışık ekleyip resmini almayı",
+        "duration": "20 Dk",
+        "why": "Gösteremediğin tasarım senin değildir."
+      },
+      "content": "<p>Shift+A ile bir 'Light -> Point' ekle. Kupanın üstüne getir. F12 tuşuna basarak tasarımının fotoğrafını (Render) al!</p>",
+      "problems": [
+        {
+          "keywords": [
+            "karanlık",
+            "siyah",
+            "görünmüyor"
+          ],
+          "answer": "Işığın gücü (Power) çok düşük olabilir. Sağ menüden ışık ayarlarında Watt değerini 1000'e çıkar.",
+          "alt": "Işık eklemek yerine direkt materyale renk verebilirsin."
+        }
+      ],
+      "fallback": "Tebrikler, ilk 3D render'ını aldın!"
+    }
+  ],
+  "relatedCourses": [
+    "diksiyon",
+    "gitar"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Tasarım"
+}

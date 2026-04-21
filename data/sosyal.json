@@ -1,0 +1,86 @@
+{
+  "id": "sosyal",
+  "icon": "🤝",
+  "title": "Sosyal Beceriler",
+  "desc": "Karizma ve etkili dinleme sanatı.",
+  "tags": [
+    "sosyal",
+    "iletişim",
+    "insan",
+    "psikoloji"
+  ],
+  "difficulty": "Tüm Seviyeler",
+  "duration": "35 Dk",
+  "categoryType": "Kişisel Gelişim",
+  "steps": [
+    {
+      "title": "Adım 1: Aktif Dinleme",
+      "summary": {
+        "what": "İnsanları gerçekten duymayı",
+        "duration": "10 Dk",
+        "why": "İnsanlar konuşanı değil, iyi dinleyeni severler."
+      },
+      "content": "<p>Birisi konuşurken ona ne cevap vereceğini düşünmeyi bırak. Sadece anlattığı hikayenin içine gir.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "sıkıcı",
+            "dinlemek",
+            "dikkat"
+          ],
+          "answer": "Detaylara odaklan. Karşındakinin kullandığı kelimeleri tekrarla.",
+          "alt": "Anlatılan hikayeyi kafanda canlandır."
+        }
+      ],
+      "fallback": "Sessizlik bazen en iyi cevaptır."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (İsim Hatırlama)",
+      "summary": {
+        "what": "İnsanların isimlerini ilk seferde ezberlemeyi",
+        "duration": "10 Dk",
+        "why": "Bir insanın duyabileceği en güzel kelime kendi adıdır."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Biriyle tanıştığında ismini duyduktan sonra o ismi yüksek sesle kendi cümlende kullan. 'Memnun oldum Ahmet.'</p>",
+      "problems": [
+        {
+          "keywords": [
+            "unutuyorum",
+            "hafıza"
+          ],
+          "answer": "İsmi beyninde komik bir görselle eşleştir.",
+          "alt": "Hemen telefonuna not al."
+        }
+      ],
+      "fallback": "İlgi gösterirsen, ilgi görürsün."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Açık Uçlu Sorular)",
+      "summary": {
+        "what": "Sohbeti tıkanmaktan kurtarmayı",
+        "duration": "15 Dk",
+        "why": "Evet/Hayır ile biten sorular sohbeti öldürür."
+      },
+      "content": "<p>Karşındakine 'Bugün nasılsın?' yerine 'Bugün en çok neye heyecanlandın?' veya 'Bu konuyu nasıl çözdün?' gibi uzun cevap gerektiren sorular sor.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "garip",
+            "soru",
+            "bulamıyorum"
+          ],
+          "answer": "Karşındakinin anlattığı son cümleden bir kelime seçip onunla ilgili soru sor.",
+          "alt": "Nasıl veya Neden ile başlayan basit sorular sor."
+        }
+      ],
+      "fallback": "İnsanlar kendilerini anlatmaya bayılır."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Tüm Seviyeler",
+  "skillPath": "General",
+  "categoryCluster": "Kişisel Gelişim"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "fitness",
+  "icon": "💪",
+  "title": "Kas Yapma (Başlangıç)",
+  "desc": "Evde ekipmansız bir şekilde kendi vücudunu inşa et.",
+  "tags": [
+    "enerjik",
+    "spor",
+    "sağlık",
+    "disiplin"
+  ],
+  "difficulty": "Başlangıç",
+  "duration": "30 Dk",
+  "categoryType": "Sağlık ve Spor",
+  "steps": [
+    {
+      "title": "Adım 1: Temel Şınav Mekaniği",
+      "summary": {
+        "what": "Doğru şınav çekmeyi",
+        "duration": "10 Dk",
+        "why": "Yanlış şınav omuzları sakatlar."
+      },
+      "content": "<p>Kollarını omuz genişliğinde aç. Kalçanı sık ve gövdeni düz bir tahta gibi tut. Dirseklerini dışarı değil, geriye doğru bük.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "yapamıyorum",
+            "gücüm yok",
+            "kalkamıyorum"
+          ],
+          "answer": "Dizlerinin üzerinde şınav çekerek başla. Güçleneceksin.",
+          "alt": "Duvarda şınav çekerek ilk adımı atabilirsin."
+        }
+      ],
+      "fallback": "Yerçekimine karşı savaşıyorsun!"
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Squat)",
+      "summary": {
+        "what": "Vücudun en büyük kasını çalıştırmayı",
+        "duration": "10 Dk",
+        "why": "Bacaklar tüm vücudun temelidir."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Sandalyeye oturup kalkar gibi havaya doğru 15 kez çömelip kalk (Squat). Sırtın dik olsun.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "dizim",
+            "ağrıyor",
+            "ses",
+            "çıt"
+          ],
+          "answer": "Dizlerin ayak parmak ucunu geçmemesine dikkat et. Kalçayı geriye doğru çıkar.",
+          "alt": "Arkanı duvara yaslayarak görünmez sandalyede oturma hareketi (Wall sit) yap."
+        }
+      ],
+      "fallback": "Yanma hissi gelişimin ayak sesleridir."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Protein)",
+      "summary": {
+        "what": "Beslenmenin temeli proteini",
+        "duration": "10 Dk",
+        "why": "Kaslar antrenmanda yıkılır, mutfakta inşa edilir."
+      },
+      "content": "<p>Kilon başına en az 1.5 gram protein almalısın. Yumurta, tavuk, lor peyniri... Her öğününe protein ekle.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "pahalı",
+            "para",
+            "yemek",
+            "sevmiyorum"
+          ],
+          "answer": "Yumurta ve mercimek en ucuz ve kaliteli protein kaynaklarıdır.",
+          "alt": "Peynir altı suyu tozu (Whey) pratik bir çözüm olabilir."
+        }
+      ],
+      "fallback": "Sen ne yersen osun."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Başlangıç",
+  "skillPath": "General",
+  "categoryCluster": "Sağlık ve Spor"
+}

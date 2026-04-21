@@ -1,0 +1,86 @@
+{
+  "id": "sabahrutini",
+  "icon": "🌅",
+  "title": "Erken Kalkma ve Sabah Rutini",
+  "desc": "Günü kazanmak için sabahı fethet.",
+  "tags": [
+    "enerjik",
+    "odaklı",
+    "disiplin",
+    "planlama"
+  ],
+  "difficulty": "Orta",
+  "duration": "30 Dk",
+  "categoryType": "Verimlilik",
+  "steps": [
+    {
+      "title": "Adım 1: Erteleme Butonunu Yok Et",
+      "summary": {
+        "what": "Alarm çaldığında anında kalkmayı",
+        "duration": "10 Dk",
+        "why": "Ertelemek beynin uyku döngüsünü bozar, daha yorgun kalkarsın."
+      },
+      "content": "<p>Alarmı yatağından kalkmadan ulaşamayacağın bir yere koy. O ilk 5 saniye çok önemlidir. Düşünmeden fırla.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "uyuyakalıyorum",
+            "duymuyorum",
+            "yorgun"
+          ],
+          "answer": "Erken kalkmanın sırrı erken uyumaktır. Gece 12'den önce ekranları kapat.",
+          "alt": "Alarm sesini her hafta değiştir ki beynin alışmasın."
+        }
+      ],
+      "fallback": "Günün galibi sabah belli olur."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Yatağı Topla)",
+      "summary": {
+        "what": "Günün ilk görevini tamamlamayı",
+        "duration": "10 Dk",
+        "why": "Küçük bir başarı diğer başarıları tetikler."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Kalktığın an, 1 dakika içinde yatağını jilet gibi topla. Akşam döndüğünde sana bir ödül gibi gelecek.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "üşeniyorum",
+            "vakit yok"
+          ],
+          "answer": "Mükemmel olmasına gerek yok, sadece örtüyü düzelt. Bu bir zihin egzersizi.",
+          "alt": "Sadece yastığını düzelt."
+        }
+      ],
+      "fallback": "Disiplin küçük adımlarla başlar."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (İlk 1 Saat)",
+      "summary": {
+        "what": "Telefonsuz bir başlangıç yapmayı",
+        "duration": "10 Dk",
+        "why": "Güne başkalarının hayatına bakarak başlamak seni reaktif yapar."
+      },
+      "content": "<p>Uyandıktan sonraki ilk 1 saat telefona DOKUNMA. Su iç, esne, kahve yap, gününü planla. Kontrol sende olsun.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "bağımlıyım",
+            "merak",
+            "mesaj"
+          ],
+          "answer": "Telefonu gece uçak moduna al ve sabah o modu 1 saat sonra kapat.",
+          "alt": "Sadece 15 dakika telefonsuz kalmayı dene."
+        }
+      ],
+      "fallback": "Zihnini temiz tut."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Verimlilik"
+}

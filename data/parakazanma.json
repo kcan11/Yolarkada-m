@@ -1,0 +1,88 @@
+{
+  "id": "parakazanma",
+  "icon": "💰",
+  "title": "İnternetten Para Kazanma",
+  "desc": "Dijital becerilerini gelire dönüştürmenin ilk adımları.",
+  "tags": [
+    "odaklı",
+    "finans",
+    "yazılım",
+    "kariyer"
+  ],
+  "difficulty": "Orta",
+  "duration": "45 Dk",
+  "categoryType": "Kariyer",
+  "steps": [
+    {
+      "title": "Adım 1: Değer Yaratma Algısı",
+      "summary": {
+        "what": "Paranın aslında ne olduğunu anlamayı",
+        "duration": "15 Dk",
+        "why": "Para, çözdüğün problemin yan ürünüdür."
+      },
+      "content": "<p>Kimse sana durduk yere para vermez. İnternette para kazanmak, birinin sorununu uzaktan çözmek demektir. Hangi yeteneğin bir başkasının hayatını kolaylaştırır? Yazı yazmak mı, tasarım mı, kodlamak mı?</p>",
+      "problems": [
+        {
+          "keywords": [
+            "yetenek",
+            "hiçbir",
+            "yok"
+          ],
+          "answer": "Yetenek doğuştan gelmez, öğrenilir. Şuan bu platformda olman bile bir gelişim.",
+          "alt": "Canva gibi basit araçları öğrenerek sosyal medya gönderileri tasarlamaya başla."
+        }
+      ],
+      "fallback": "Odaklan ve bir problem bul."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Freelance Profil)",
+      "summary": {
+        "what": "Bionluk, Fiverr gibi sitelerde var olmayı",
+        "duration": "15 Dk",
+        "why": "Vitrin olmadan satış olmaz."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Bionluk veya Fiverr'da bir hesap aç ve sunabileceğin en basit hizmeti (Örn: Arkaplan silme, metin düzenleme) ilan olarak ekle.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "müşteri",
+            "gelmiyor",
+            "satış",
+            "yok"
+          ],
+          "answer": "İlk satış her zaman en zorudur. Fiyatını çok düşük tutarak sadece yorum almaya odaklan.",
+          "alt": "Tanıdıklarına veya sosyal medyadaki küçük sayfalara ücretsiz iş teklif et, referans topla."
+        }
+      ],
+      "fallback": "Sadece başla, kervan yolda dizilir."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Soğuk E-posta)",
+      "summary": {
+        "what": "Müşterilere ulaşma sanatı",
+        "duration": "15 Dk",
+        "why": "Müşterinin sana gelmesini beklersen aç kalırsın."
+      },
+      "content": "<p>İşletmelere 'Sitenizdeki şu sorunu gördüm, bunu sizin için X fiyata çözebilirim' şeklinde direkt mesaj at. 100 kişiye atarsan en az 2'si kabul eder.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "red",
+            "cevap",
+            "spam"
+          ],
+          "answer": "Reddedilmek işin doğası. Mesajını kişiselleştir, kopyala yapıştır yapma.",
+          "alt": "E-posta yerine Instagram veya LinkedIn'den ulaşmayı dene."
+        }
+      ],
+      "fallback": "Her 'Hayır', seni bir 'Evet'e yaklaştırır."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Kariyer"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "stres",
+  "icon": "🧘",
+  "title": "Stres Yönetimi",
+  "desc": "Zihnini dinginleştir, paniği kontrol et.",
+  "tags": [
+    "sakin",
+    "sağlık",
+    "psikoloji",
+    "meditasyon"
+  ],
+  "difficulty": "Başlangıç",
+  "duration": "25 Dk",
+  "categoryType": "Kişisel Gelişim",
+  "steps": [
+    {
+      "title": "Adım 1: 4-7-8 Nefesi",
+      "summary": {
+        "what": "Sinir sistemini anında hacklemeyi",
+        "duration": "5 Dk",
+        "why": "Nefes, beynin panik butonunu kapatan tek şalterdir."
+      },
+      "content": "<p>4 saniye boyunca burnundan nefes al. 7 saniye nefesini tut. 8 saniye boyunca ağzından yavaşça üfleyerek ver. Bunu 4 kez tekrarla.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "boğuldum",
+            "zor",
+            "tutamıyorum"
+          ],
+          "answer": "Süreleri kısalt. 3-4-5 yap. Önemli olan nefes verişin alıştan uzun olmasıdır.",
+          "alt": "Sadece derin bir nefes alıp 'Ommm' diyerek uzunca ver."
+        }
+      ],
+      "fallback": "Oksijen beyninin ilacıdır."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Endişe Saati)",
+      "summary": {
+        "what": "Endişeyi gün içine yaymak yerine sınırlamayı",
+        "duration": "10 Dk",
+        "why": "Sürekli endişe etmek enerjini emer."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Kendine günde sadece 15 dakikalık bir 'Endişe saati' belirle (Örn: 18:00). O saat dışında aklına kötü bir şey gelirse, 'Bunu saat 6'da düşüneceğim' de.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "geliyor",
+            "engel olamıyorum",
+            "düşünüyorum"
+          ],
+          "answer": "Düşünceler bulut gibidir, geldiklerinde onlarla savaşma. Sadece izle ve geçip gitmelerine izin ver.",
+          "alt": "Endişelerini bir kağıda yaz, kağıdı buruşturup at."
+        }
+      ],
+      "fallback": "Düşüncelerin gerçek değil."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Etki Alanı)",
+      "summary": {
+        "what": "Kontrol edemediklerini bırakmayı",
+        "duration": "10 Dk",
+        "why": "Dünyayı kontrol edemezsin, sadece tepkini edebilirsin."
+      },
+      "content": "<p>Seni strese sokan olayı düşün. Bunu değiştirmek benim elimde mi? Evetse plan yap. Hayırsa serbest bırak.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "bırakamıyorum",
+            "korkuyorum"
+          ],
+          "answer": "Kontrol edemediğin şeyleri kabul etmek bir süreçtir. Sadece farkındalıkla başla.",
+          "alt": "Dışarı çık ve sadece 10 dakika yürü."
+        }
+      ],
+      "fallback": "Sadece şu an var."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Başlangıç",
+  "skillPath": "General",
+  "categoryCluster": "Kişisel Gelişim"
+}

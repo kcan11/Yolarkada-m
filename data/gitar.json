@@ -1,0 +1,107 @@
+{
+  "id": "gitar",
+  "icon": "🎸",
+  "title": "Gitar Çalmak",
+  "desc": "Sıfırdan gitar serüveni. Temel akorlar, ritimler ve o mükemmel ilk şarkı hissi.",
+  "tags": [
+    "sakin",
+    "yaratıcı",
+    "yorgun",
+    "müzik",
+    "sanat",
+    "gitar"
+  ],
+  "difficulty": "Başlangıç",
+  "duration": "45 Dk",
+  "categoryType": "Müzik ve Sanat",
+  "steps": [
+    {
+      "title": "Adım 1: Gitarı Tanıyalım & DOĞRU Tutuş",
+      "summary": {
+        "what": "Gitarı doğru tutmayı ve temel pozisyonu",
+        "duration": "10 Dk",
+        "why": "Yanlış tutuş ileride sırt ağrısı ve çalma zorluğu yaratır."
+      },
+      "content": "<p>Öncelikle müziğe attığın bu cesur adım için tebrikler! 🎉 Eğlenceli ama bazen can yakıcı (sadece parmak ucu acısı) bir yolculuğa başlıyoruz.</p>\n                          <p><b>Temel Kural:</b> Gitarı kucağına aldığında savaşır gibi değil, sarılır gibi durmalısın.</p>\n                          <ul><li><b>Pozisyon:</b> Dik bir sandalyeye otur. Koltuğa yayılma! Gitarın o kıvrımlı kısmını sağ bacağının üzerine çok nazikçe oturt.</li>\n                          <li><b>Kollar:</b> Sağ kolunun dirseğini, gitarın üst gövdesine yasla. Sol elin klavyeyi boğarcasına sıkmamalı. Sadece baş parmağın arkadan hafifçe destek vermeli.</li></ul>\n                          <p>Hemen şimdi dediklerimi yap ve sağ elinin baş parmağıyla kalın tellere yukarıdan aşağıya yavaşça bir vur. Titreşimi göğsünde hisset.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "ağrı",
+            "acı",
+            "parmak",
+            "yara",
+            "uyuş"
+          ],
+          "answer": "İlk günlerde parmak uçlarının (özellikle sol el) acıması ÇOK normal! O acı, beyninin oraya nasır inşa etmesinin bir uyarısı. Günde 15 dakikadan fazla zorlama. 💙",
+          "alt": "Eğer dayanılmaz bir acıysa gitarın telleri çok kalın veya yüksek olabilir. İnce tel (0.9 veya 0.10) takmayı düşünebilirsin."
+        },
+        {
+          "keywords": [
+            "kayıyor",
+            "tutamıyorum",
+            "ağır",
+            "düşüyor",
+            "otur",
+            "bacak"
+          ],
+          "answer": "Gitarın kayması kıyafetle alakalıdır. Eşofman gibi kaygan kumaşlar tutuşu zorlaştırır. Sol bacağını hafif ucuz bir ayaklık alarak havaya kaldırmayı deneyebilirsin.",
+          "alt": "Ayrıca gitar için bir askı (strap) alıp otururken bile takarsan gitarın dengesini sağlamak çok daha kolay olur."
+        }
+      ],
+      "fallback": "Zorlanman doğal. Omuzlarını indir, derin bir nefes al ve tekrar kucağına oturt."
+    },
+    {
+      "title": "Adım 2: İlk Akorumuz: Mi Minör (Em)",
+      "summary": {
+        "what": "İlk akor olan Mi Minör basmayı",
+        "duration": "15 Dk",
+        "why": "Bu akor yüzlerce popüler şarkının temel taşıdır."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Hemen şimdi telefonunu sessize al ve bu adımda öğrendiğini 2 dakika pratik yap.</p><p>Gitarı tutmayı başardık, şimdi ses çıkarma vakti! Öğreneceğin ilk akor <b>Mi Minör (Em)</b>.</p>\n                          <p>Kullanacağımız Teller (Gitarın boynu havaya bakarken, en soldaki en kalın tele 6 numara diyoruz):</p>\n                          <ul><li>Orta parmağını al, yukarıdan aşağıya doğru 5. Telin <b>2. Perdesi</b>ne bas.</li>\n                          <li>Yüzük parmağını al, onun tam altına yani 4. Telin <b>2. Perdesi</b>ne bas.</li></ul>\n                          <p>Geri kalan hiçbir tele dokunma. Şimdi sağ elinle tüm telleri yukarıdan aşağı tek hamlede tara. Ses nasıl?</p>",
+      "problems": [
+        {
+          "keywords": [
+            "cızırtı",
+            "cırt",
+            "ses çıkmıyor",
+            "boğuk",
+            "titreşim"
+          ],
+          "answer": "Tellerin cızırtı yapması: 1- Parmağını metal perdeden uzağa basıyorsun. Dibine bas. 2- Yeterince sert basmıyorsun. Cesur ol!",
+          "alt": "Parmak ucunun tam tırnak dibiyle basmaya dikkat et. Etli kısımla basarsan yandaki telleri de susturursun."
+        }
+      ],
+      "fallback": "Parmakların birbirine düşman gibi davranabilir, basıp bozup tekrar bas."
+    },
+    {
+      "title": "Adım 3: Kas Hafızası ve La Minör (Am)",
+      "summary": {
+        "what": "La Minör akoru ve geçiş egzersizini",
+        "duration": "20 Dk",
+        "why": "Akorlar arası akıcı geçiş şarkı çalabilmenin tek yoludur."
+      },
+      "content": "<p>Sırada Mi Minör'ün dostu: <b>La Minör (Am)</b>. Bu ikisi arası geçiş yüzlerce şarkıyı açar.</p>\n                          <ul><li>İşaret parmağın: 2. Tel 1. Perde</li><li>Orta ve Yüzük parmağın: 3. ve 4. tel 2. perde.</li></ul>\n                          <p>Geçiş yaparken beynin çıldıracak gibi olabilir. Ritim atarken Em bas, telleri sustur, ÇOK YAVAŞ bir şekilde Am'ye geç. Hızlanmaya çalışma, doğru basmaya odaklan!</p>",
+      "problems": [
+        {
+          "keywords": [
+            "yavaş",
+            "hız",
+            "geçemiyorum",
+            "takılıyorum",
+            "yetişemiyorum"
+          ],
+          "answer": "Akorlar arası yavaş geçiş yapmak hata değil süreçtir. 1 ayın sonunda beynin sen düşünmeden otomatik geçiş yapacak.",
+          "alt": "Gece uyumadan önce sadece sol elinle akorları basıp bırak. Uykuda beyin bu kas hafızasını kaydeder."
+        }
+      ],
+      "fallback": "Müzikte hızlanmanın tek kuralı, doğru ve yavaş çalmayı öğrenmektir! Devam et!"
+    }
+  ],
+  "relatedCourses": [
+    "diksiyon",
+    "ingilizce"
+  ],
+  "difficultyLevel": "Başlangıç",
+  "skillPath": "General",
+  "categoryCluster": "Müzik ve Sanat"
+}

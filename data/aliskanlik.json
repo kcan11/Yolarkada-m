@@ -1,0 +1,84 @@
+{
+  "id": "aliskanlik",
+  "icon": "🔄",
+  "title": "Alışkanlık Kazanma",
+  "desc": "Atomik alışkanlıklarla hayatını otomatik pilota al.",
+  "tags": [
+    "disiplin",
+    "psikoloji",
+    "sürdürülebilir",
+    "gelişim"
+  ],
+  "difficulty": "Orta",
+  "duration": "30 Dk",
+  "categoryType": "Kişisel Gelişim",
+  "steps": [
+    {
+      "title": "Adım 1: İki Dakika Kuralı",
+      "summary": {
+        "what": "Büyük hedefleri mikrolaştırmayı",
+        "duration": "10 Dk",
+        "why": "Beyin zor şeylerden kaçar, kolay şeyleri yapar."
+      },
+      "content": "<p>Kitap okuma alışkanlığı mı istiyorsun? Hedef 'Günde 1 sayfa okumak' olsun. Spor mu? 'Sadece ayakkabılarımı giyeceğim' olsun. Olay kimlik inşa etmektir.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "az",
+            "yetersiz",
+            "komik"
+          ],
+          "answer": "Başlangıçta amaç sonuç değil, alışkanlığı sisteme entegre etmektir.",
+          "alt": "Başladıktan sonra istersen devam edebilirsin ama hedefin hep o küçük şey olsun."
+        }
+      ],
+      "fallback": "Mükemmellik, tutarlılığın düşmanıdır."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Alışkanlık İstifleme)",
+      "summary": {
+        "what": "Yeni alışkanlığı eski bir rutine bağlamayı",
+        "duration": "10 Dk",
+        "why": "Mevcut nöron ağlarını kullanarak işi kolaylaştırırsın."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> 'Dişlerimi fırçaladıktan SONRA 1 bardak su içeceğim' gibi bir formül kur ve bugün uygula.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "unutuyorum"
+          ],
+          "answer": "Bağladığın eski rutini her gün mutlaka yaptığın bir şeyden seç.",
+          "alt": "Eski alışkanlığın olduğu yere hatırlatıcı bir not yapıştır."
+        }
+      ],
+      "fallback": "Sistem hedeflerden daha önemlidir."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Görünürlük)",
+      "summary": {
+        "what": "Çevreyi alışkanlığa göre tasarlamayı",
+        "duration": "10 Dk",
+        "why": "İrade gücü sınırlıdır, ortam tasarımı kalıcıdır."
+      },
+      "content": "<p>Su içmek istiyorsan masana dolu bir şişe koy. Gitar çalmak istiyorsan gitarı kılıfında değil, görebileceğin bir stantta tut.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "yer yok",
+            "dağınık"
+          ],
+          "answer": "Gözünün önünde olması en önemli kuraldır.",
+          "alt": "Sadece yapacağın aktivitenin malzemelerini bir arada hazır tut."
+        }
+      ],
+      "fallback": "İradeyle değil, çevreyle kazanılır."
+    }
+  ],
+  "relatedCourses": [
+    "derscalisma",
+    "diksiyon"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Kişisel Gelişim"
+}

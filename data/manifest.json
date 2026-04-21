@@ -1,0 +1,371 @@
+{
+  "aliskanlik": {
+    "id": "aliskanlik",
+    "icon": "🔄",
+    "title": "Alışkanlık Kazanma",
+    "desc": "Atomik alışkanlıklarla hayatını otomatik pilota al.",
+    "tags": [
+      "disiplin",
+      "psikoloji",
+      "sürdürülebilir",
+      "gelişim"
+    ],
+    "categoryType": "Kişisel Gelişim",
+    "difficultyLevel": "Orta",
+    "duration": "30 Dk",
+    "relatedCourses": [
+      "derscalisma",
+      "diksiyon"
+    ],
+    "categoryCluster": "Kişisel Gelişim",
+    "stepCount": 3
+  },
+  "derscalisma": {
+    "id": "derscalisma",
+    "icon": "📚",
+    "title": "Ders Çalışma Teknikleri",
+    "desc": "Saatlerce bakmak yerine beynini kodla.",
+    "tags": [
+      "odaklı",
+      "öğrenme",
+      "verimlilik",
+      "okul"
+    ],
+    "categoryType": "Verimlilik",
+    "difficultyLevel": "Orta",
+    "duration": "40 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "diksiyon"
+    ],
+    "categoryCluster": "Verimlilik",
+    "stepCount": 3
+  },
+  "diksiyon": {
+    "id": "diksiyon",
+    "icon": "🗣",
+    "title": "Diksiyon ve Etkili Konuşma",
+    "desc": "İnsanları sesinle büyüle, kelimenin gücüyle iz bırak.",
+    "tags": [
+      "odaklı",
+      "sosyal",
+      "iletişim",
+      "konuşma",
+      "liderlik"
+    ],
+    "categoryType": "Kişisel Gelişim",
+    "difficultyLevel": "Başlangıç",
+    "duration": "40 Dk",
+    "relatedCourses": [
+      "gitar",
+      "ingilizce"
+    ],
+    "categoryCluster": "Kişisel Gelişim",
+    "stepCount": 3
+  },
+  "fitness": {
+    "id": "fitness",
+    "icon": "💪",
+    "title": "Kas Yapma (Başlangıç)",
+    "desc": "Evde ekipmansız bir şekilde kendi vücudunu inşa et.",
+    "tags": [
+      "enerjik",
+      "spor",
+      "sağlık",
+      "disiplin"
+    ],
+    "categoryType": "Sağlık ve Spor",
+    "difficultyLevel": "Başlangıç",
+    "duration": "30 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Sağlık ve Spor",
+    "stepCount": 3
+  },
+  "gitar": {
+    "id": "gitar",
+    "icon": "🎸",
+    "title": "Gitar Çalmak",
+    "desc": "Sıfırdan gitar serüveni. Temel akorlar, ritimler ve o mükemmel ilk şarkı hissi.",
+    "tags": [
+      "sakin",
+      "yaratıcı",
+      "yorgun",
+      "müzik",
+      "sanat",
+      "gitar"
+    ],
+    "categoryType": "Müzik ve Sanat",
+    "difficultyLevel": "Başlangıç",
+    "duration": "45 Dk",
+    "relatedCourses": [
+      "diksiyon",
+      "ingilizce"
+    ],
+    "categoryCluster": "Müzik ve Sanat",
+    "stepCount": 3
+  },
+  "hizliogrenme": {
+    "id": "hizliogrenme",
+    "icon": "⚡",
+    "title": "Hızlı Öğrenme Teknikleri",
+    "desc": "Beyninin işletim sistemini güncelle.",
+    "tags": [
+      "odaklı",
+      "eğitim",
+      "zeka",
+      "öğrenme"
+    ],
+    "categoryType": "Verimlilik",
+    "difficultyLevel": "Orta",
+    "duration": "35 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Verimlilik",
+    "stepCount": 3
+  },
+  "ingilizce": {
+    "id": "ingilizce",
+    "icon": "🌍",
+    "title": "İngilizce İletişim",
+    "desc": "Grameri bir kenara bırak, sadece konuş. Dil engeli zihnindedir.",
+    "tags": [
+      "enerjik",
+      "sosyal",
+      "meraklı",
+      "dil",
+      "ingilizce",
+      "iletişim"
+    ],
+    "categoryType": "Kişisel Gelişim",
+    "difficultyLevel": "Tüm Seviyeler",
+    "duration": "30 Dk",
+    "relatedCourses": [
+      "diksiyon",
+      "gitar"
+    ],
+    "categoryCluster": "Kişisel Gelişim",
+    "stepCount": 3
+  },
+  "modelleme": {
+    "id": "modelleme",
+    "icon": "🧊",
+    "title": "3D Modelleme (Blender)",
+    "desc": "Kendi 3 boyutlu dünyanı ve karakterlerini yarat.",
+    "tags": [
+      "yaratıcı",
+      "odaklı",
+      "sanat",
+      "tasarım",
+      "bilgisayar"
+    ],
+    "categoryType": "Tasarım",
+    "difficultyLevel": "Orta",
+    "duration": "1.5 Saat",
+    "relatedCourses": [
+      "diksiyon",
+      "gitar"
+    ],
+    "categoryCluster": "Tasarım",
+    "stepCount": 3
+  },
+  "odaklanma": {
+    "id": "odaklanma",
+    "icon": "🎯",
+    "title": "Derin Odaklanma (Deep Work)",
+    "desc": "Dikkat dağıtıcıları yok et ve lazer gibi odaklan.",
+    "tags": [
+      "odaklı",
+      "çalışma",
+      "verimlilik",
+      "başarı"
+    ],
+    "categoryType": "Verimlilik",
+    "difficultyLevel": "Orta",
+    "duration": "35 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Verimlilik",
+    "stepCount": 3
+  },
+  "ozguven": {
+    "id": "ozguven",
+    "icon": "🦁",
+    "title": "Özgüven Geliştirme",
+    "desc": "İçindeki gücü açığa çıkar ve sosyal ortamlarda parılda.",
+    "tags": [
+      "sosyal",
+      "odaklı",
+      "iletişim",
+      "cesaret",
+      "psikoloji"
+    ],
+    "categoryType": "Kişisel Gelişim",
+    "difficultyLevel": "Tüm Seviyeler",
+    "duration": "40 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Kişisel Gelişim",
+    "stepCount": 3
+  },
+  "parakazanma": {
+    "id": "parakazanma",
+    "icon": "💰",
+    "title": "İnternetten Para Kazanma",
+    "desc": "Dijital becerilerini gelire dönüştürmenin ilk adımları.",
+    "tags": [
+      "odaklı",
+      "finans",
+      "yazılım",
+      "kariyer"
+    ],
+    "categoryType": "Kariyer",
+    "difficultyLevel": "Orta",
+    "duration": "45 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Kariyer",
+    "stepCount": 3
+  },
+  "sabahrutini": {
+    "id": "sabahrutini",
+    "icon": "🌅",
+    "title": "Erken Kalkma ve Sabah Rutini",
+    "desc": "Günü kazanmak için sabahı fethet.",
+    "tags": [
+      "enerjik",
+      "odaklı",
+      "disiplin",
+      "planlama"
+    ],
+    "categoryType": "Verimlilik",
+    "difficultyLevel": "Orta",
+    "duration": "30 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Verimlilik",
+    "stepCount": 3
+  },
+  "sosyal": {
+    "id": "sosyal",
+    "icon": "🤝",
+    "title": "Sosyal Beceriler",
+    "desc": "Karizma ve etkili dinleme sanatı.",
+    "tags": [
+      "sosyal",
+      "iletişim",
+      "insan",
+      "psikoloji"
+    ],
+    "categoryType": "Kişisel Gelişim",
+    "difficultyLevel": "Tüm Seviyeler",
+    "duration": "35 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Kişisel Gelişim",
+    "stepCount": 3
+  },
+  "stres": {
+    "id": "stres",
+    "icon": "🧘",
+    "title": "Stres Yönetimi",
+    "desc": "Zihnini dinginleştir, paniği kontrol et.",
+    "tags": [
+      "sakin",
+      "sağlık",
+      "psikoloji",
+      "meditasyon"
+    ],
+    "categoryType": "Kişisel Gelişim",
+    "difficultyLevel": "Başlangıç",
+    "duration": "25 Dk",
+    "relatedCourses": [
+      "aliskanlik",
+      "derscalisma"
+    ],
+    "categoryCluster": "Kişisel Gelişim",
+    "stepCount": 3
+  },
+  "yatirim": {
+    "id": "yatirim",
+    "icon": "📈",
+    "title": "Yatırım ve Finans",
+    "desc": "Paranın senin için köle gibi çalışmasını sağla. Zaman en büyük silahın.",
+    "tags": [
+      "odaklı",
+      "sakin",
+      "finans",
+      "para",
+      "ekonomi",
+      "matematik"
+    ],
+    "categoryType": "Finans",
+    "difficultyLevel": "Orta",
+    "duration": "50 Dk",
+    "relatedCourses": [
+      "diksiyon",
+      "gitar"
+    ],
+    "categoryCluster": "Finans",
+    "stepCount": 3
+  },
+  "yazilim": {
+    "id": "yazilim",
+    "icon": "💻",
+    "title": "Yazılıma Başlamak",
+    "desc": "Kendi internet sitenizi kodlayarak yazılım dünyasının kapılarını aralayın.",
+    "tags": [
+      "enerjik",
+      "odaklı",
+      "yazılım",
+      "kod",
+      "bilgisayar",
+      "meraklı"
+    ],
+    "categoryType": "Teknoloji",
+    "difficultyLevel": "Başlangıç",
+    "duration": "1 Saat",
+    "relatedCourses": [
+      "diksiyon",
+      "gitar"
+    ],
+    "categoryCluster": "Teknoloji",
+    "stepCount": 3
+  },
+  "zamanyonetimi": {
+    "id": "zamanyonetimi",
+    "icon": "⏳",
+    "title": "Zaman Yönetimi",
+    "desc": "Daha çok çalışarak değil, daha zekice bir planla günü ele geçir.",
+    "tags": [
+      "yorgun",
+      "odaklı",
+      "liderlik",
+      "verimlilik",
+      "planlama"
+    ],
+    "categoryType": "Verimlilik",
+    "difficultyLevel": "Tüm Seviyeler",
+    "duration": "30 Dk",
+    "relatedCourses": [
+      "diksiyon",
+      "gitar"
+    ],
+    "categoryCluster": "Verimlilik",
+    "stepCount": 3
+  }
+}

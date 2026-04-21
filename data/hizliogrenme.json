@@ -1,0 +1,85 @@
+{
+  "id": "hizliogrenme",
+  "icon": "⚡",
+  "title": "Hızlı Öğrenme Teknikleri",
+  "desc": "Beyninin işletim sistemini güncelle.",
+  "tags": [
+    "odaklı",
+    "eğitim",
+    "zeka",
+    "öğrenme"
+  ],
+  "difficulty": "Orta",
+  "duration": "35 Dk",
+  "categoryType": "Verimlilik",
+  "steps": [
+    {
+      "title": "Adım 1: %20'yi Bulmak (Pareto Prensibi)",
+      "summary": {
+        "what": "Konunun özünü kavramayı",
+        "duration": "10 Dk",
+        "why": "Sonuçların %80'i, çabanın %20'sinden gelir."
+      },
+      "content": "<p>Bir dil öğreniyorsan tüm kelimeleri değil, günlük hayatta en çok kullanılan 100 kelimeyi öğren. Bir program öğreniyorsan en çok kullanılan 5 aracı öğren.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "hepsi önemli",
+            "eksik"
+          ],
+          "answer": "Her şey aynı derecede önemli olamaz. Ana iskeleti kur, detayları sonra eklersin.",
+          "alt": "Bir bilene 'Bunun en önemli %20'si nedir?' diye sor."
+        }
+      ],
+      "fallback": "Zekice çalış, çok değil."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Pomodoro + Feynman)",
+      "summary": {
+        "what": "İki tekniği birleştirmeyi",
+        "duration": "15 Dk",
+        "why": "Odak ve anlama gücünü maksimize eder."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> 25 dakika odaklanarak çalış. Süre bitince, öğrendiklerini 5 dakika boyunca kağıda veya sesli olarak kendi kelimelerinle özetle.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "yapamadım",
+            "zaman",
+            "bitti"
+          ],
+          "answer": "Önemli olan denemektir. Pomodoro süresini kendine göre ayarla.",
+          "alt": "Sadece ses kaydı alarak kendini test et."
+        }
+      ],
+      "fallback": "Sinerji her zaman 1+1'den büyüktür."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Uyku Öncesi Tekrar)",
+      "summary": {
+        "what": "Uykuyu öğrenme sürecine dahil etmeyi",
+        "duration": "10 Dk",
+        "why": "Beyin uyku sırasında bilgileri kısa bellekten uzun belleğe aktarır."
+      },
+      "content": "<p>Uyumadan hemen önceki 15 dakikayı ekran kaydırarak değil, o gün öğrendiğin en önemli 3 şeye göz atarak geçir.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "uyku bastırdı",
+            "yorgunum"
+          ],
+          "answer": "Sadece 2 dakika notlarına bakman bile yeterli.",
+          "alt": "Öğrendiğin konuyu zihninde canlandırarak uyu."
+        }
+      ],
+      "fallback": "Uyku en iyi hafıza geliştiricidir."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Orta",
+  "skillPath": "General",
+  "categoryCluster": "Verimlilik"
+}

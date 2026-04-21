@@ -1,0 +1,87 @@
+{
+  "id": "ozguven",
+  "icon": "🦁",
+  "title": "Özgüven Geliştirme",
+  "desc": "İçindeki gücü açığa çıkar ve sosyal ortamlarda parılda.",
+  "tags": [
+    "sosyal",
+    "odaklı",
+    "iletişim",
+    "cesaret",
+    "psikoloji"
+  ],
+  "difficulty": "Tüm Seviyeler",
+  "duration": "40 Dk",
+  "categoryType": "Kişisel Gelişim",
+  "steps": [
+    {
+      "title": "Adım 1: Dik Duruşun Gücü",
+      "summary": {
+        "what": "Fiziksel duruşun psikolojiyi nasıl etkilediğini",
+        "duration": "10 Dk",
+        "why": "Beden dilin beynini kandırabilir."
+      },
+      "content": "<p>Kambur durmak beynine 'tehlikedeyiz, saklan' mesajı verir. Omuzlarını geriye al, çeneni hafifçe yukarı kaldır.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "ağrı",
+            "zor"
+          ],
+          "answer": "Kasların alışkın olmadığı için ağrıyor, normal.",
+          "alt": "Duvarda sırtını yaslayarak dik durma pratiği yap."
+        }
+      ],
+      "fallback": "Süpermen pozu ver!"
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Göz Teması)",
+      "summary": {
+        "what": "İnsanların gözlerine korkmadan bakmayı",
+        "duration": "15 Dk",
+        "why": "Göz teması kurmak özgüvenin en belirgin işaretidir."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Bugün konuştuğun herkesin göz rengini fark etmeye çalış. Gözlerine bak ama dik dik değil, nazikçe.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "utanıyorum",
+            "çekiniyorum",
+            "kaçırıyorum"
+          ],
+          "answer": "Gözlerinin tam içine bakamıyorsan, iki kaşının ortasına bak. Karşıdaki fark etmeyecektir.",
+          "alt": "Sadece dinlerken göz teması kur, konuşurken hafifçe başka yere bakabilirsin."
+        }
+      ],
+      "fallback": "Gözler ruhun aynasıdır."
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Reddedilme Terapisi)",
+      "summary": {
+        "what": "Hayır cevabına karşı duyarsızlaşmayı",
+        "duration": "15 Dk",
+        "why": "Korktuğun şey aslında sadece bir kelimedir."
+      },
+      "content": "<p>Bilinçli olarak reddedileceğin bir şey iste. Mesela bir kafede 'Kahvemi bedava alabilir miyim?' de. Amaç kahve almak değil, 'Hayır' kelimesini duyup dünyanın sonu olmadığını görmek.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "rezil",
+            "korkunç",
+            "yapamam"
+          ],
+          "answer": "Rezil olmak zihninde yarattığın bir ilüzyon. Kimse seni umursamıyor.",
+          "alt": "Daha küçük bir şeyle başla, yoldan geçen birine saati sor."
+        }
+      ],
+      "fallback": "Cesaret korkmamak değil, korkuya rağmen adım atmaktır."
+    }
+  ],
+  "relatedCourses": [
+    "aliskanlik",
+    "derscalisma"
+  ],
+  "difficultyLevel": "Tüm Seviyeler",
+  "skillPath": "General",
+  "categoryCluster": "Kişisel Gelişim"
+}

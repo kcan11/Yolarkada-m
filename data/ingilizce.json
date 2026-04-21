@@ -1,0 +1,94 @@
+{
+  "id": "ingilizce",
+  "icon": "🌍",
+  "title": "İngilizce İletişim",
+  "desc": "Grameri bir kenara bırak, sadece konuş. Dil engeli zihnindedir.",
+  "tags": [
+    "enerjik",
+    "sosyal",
+    "meraklı",
+    "dil",
+    "ingilizce",
+    "iletişim"
+  ],
+  "difficulty": "Tüm Seviyeler",
+  "duration": "30 Dk",
+  "categoryType": "Kişisel Gelişim",
+  "steps": [
+    {
+      "title": "Adım 1: Psikolojik Blokajı Kırmak",
+      "summary": {
+        "what": "Sesli konuşma korkusunu aşmayı",
+        "duration": "10 Dk",
+        "why": "Bir dili telaffuz etmekten çekinmek onu öğrenmenin önündeki en büyük engeldir."
+      },
+      "content": "<p>Hata yapmanın korkunç bir şey olduğu kodlandı bize. Oysa İngilizce sadece kaba bir iletişim aracı.</p>\n                          <p><b>Görev:</b> Etrafına bak. Gördüğün her nesneyi ingilizce olarak yüksek sesle, odada çınlayacak şekilde bağırarak söyle.</p>\n                          <p>\"This is a table!\", \"This is a wall!\" Kendi sesinden utancını yenmeden konuşamazsın!</p>",
+      "problems": [
+        {
+          "keywords": [
+            "utan",
+            "çekini",
+            "rezil",
+            "telaffuz",
+            "kötü",
+            "aksan"
+          ],
+          "answer": "Senin Türk aksanına sahip olman tamamen normal. Amerikan başkanı gibi konuşmak zorunda değilsin, amacın derdini anlatmak!",
+          "alt": "Kendini odana kapat, müziği aç ve sadece kendi bildiğin gibi bağırarak şarkılara eşlik et. Kasların açılsın."
+        }
+      ],
+      "fallback": "Çocuklar dili önce anlamsız sesler çıkararak öğrenir, utanma."
+    },
+    {
+      "title": "Adım 2: Çeviri Kanserini Bitirmek",
+      "summary": {
+        "what": "İngilizce düşünme tekniğini 'Think in English'",
+        "duration": "10 Dk",
+        "why": "Kafanda çeviri yapmak konuşmayı çok yavaşlatır."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Hemen şimdi telefonunu sessize al ve bu adımda öğrendiğini 2 dakika pratik yap.</p><p>Önce Türkçe duyup, sonra İngilizceye çevirerek düşünürsen takılırsın.</p>\n                          <p><b>Think in English Kuralı:</b> Kalktığında iç sesin Türkçe yerine İngilizce konuşsun. \"I am going to shower\", \"I am tired\".</p>\n                          <p>Bir kelimeyi bilmiyorsan, Türkçe karşılığını kullanma. \"Helikopter\" gelmiyorsa aklına \"Big flying car\" de geç!</p>",
+      "problems": [
+        {
+          "keywords": [
+            "kelime",
+            "bilmiyorum",
+            "unutuyorum",
+            "hafıza"
+          ],
+          "answer": "Unuttuğun kelimenin sözlüğüne bakma. Onu anlatacak 3 basit kelime uydur. Beynin doğaçlama yapmayı öğrenmeli!",
+          "alt": "Günde sadece 5 yeni kelime öğren ve o kelimeleri o gün herkesle sohbet ederken zorla araya sıkıştır."
+        }
+      ],
+      "fallback": "Mükemmel cümle yoktur, kurulmuş anlaşılır cümle vardır."
+    },
+    {
+      "title": "Adım 3: 'Shadowing' (Gölgeleme) Tekniği",
+      "summary": {
+        "what": "Ana dili İngilizce olanları taklit etmeyi",
+        "duration": "10 Dk",
+        "why": "Akıcılık ve doğal vurgulama duyarak gelişir."
+      },
+      "content": "<p>Duyduğunu taklit etmek en güçlü öğrenmedir.</p>\n                          <p>İngilizce bir film sahnesini aç. Kulaklığı tak. Aktör cümleyi söylerken aynı anda, onun hemen yarım saniye peşinden, onun vurgusunu birebir kopyalayarak yüksek sesle TEKRAR ET.</p>\n                          <p>Günde 15 dakika sadece bunu yaparsan akıcılık (fluency) patlaması yaşarsın.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "hızlı",
+            "anlamıyorum",
+            "yetişemiyorum",
+            "takip"
+          ],
+          "answer": "Eğer çok hızlı geliyorsa YouTube'dan hızı x0.75'e çek. Önemli olan aktörün vurguladığı o melodiyi hissetmektir.",
+          "alt": "Çizgi filmlerle başla! Peppa Pig gibi İngiliz çizgi filmlerinin telaffuzu kusursuz ve çok yavaştır."
+        }
+      ],
+      "fallback": "Bu adımda kendi kendine dalga geçer gibi kopyala, utancını at!"
+    }
+  ],
+  "relatedCourses": [
+    "diksiyon",
+    "gitar"
+  ],
+  "difficultyLevel": "Tüm Seviyeler",
+  "skillPath": "General",
+  "categoryCluster": "Kişisel Gelişim"
+}

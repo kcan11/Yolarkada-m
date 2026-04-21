@@ -1,0 +1,77 @@
+{
+  "id": "diksiyon",
+  "icon": "🗣",
+  "title": "Diksiyon ve Etkili Konuşma",
+  "desc": "İnsanları sesinle büyüle, kelimenin gücüyle iz bırak.",
+  "tags": [
+    "odaklı",
+    "sosyal",
+    "iletişim",
+    "konuşma",
+    "liderlik"
+  ],
+  "difficulty": "Başlangıç",
+  "duration": "40 Dk",
+  "categoryType": "Kişisel Gelişim",
+  "steps": [
+    {
+      "title": "Adım 1: Diyafram Nefesi",
+      "summary": {
+        "what": "Doğru nefes almayı öğrenmek",
+        "duration": "15 Dk",
+        "why": "Sesinin titrememesi ve güçlü çıkması için."
+      },
+      "content": "<p>Diksiyon nefese dayanır. Sırt ustu uzan, karnına kitap koy...</p>",
+      "fallback": "Denizde yüzerken nasıl derin nefes alıyorsan o diyaframdır."
+    },
+    {
+      "title": "Adım 2: Uygulama / Pratik (Kalem Egzersizi)",
+      "summary": {
+        "what": "Dudak tembelliğini kırmayı",
+        "duration": "10 Dk",
+        "why": "Kelimelerin yutulmasını engellemek için dudak kaslarının güçlenmesi şart."
+      },
+      "content": "<p><b>Mini Challenge (Bugün bunu dene):</b> Ağzına yatay bir şekilde temiz bir kalem al ve dişlerinle hafifçe tut. Bu haldeyken yüksek sesle bir haber metni okumaya çalış. Tükürük saçman veya zorlanman çok normal.</p><p>Kalemi çıkardığında kelimelerin ne kadar rahat çıktığına inanamayacaksın.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "acı",
+            "zor",
+            "tükürük"
+          ],
+          "answer": "Ağzındaki kasların yorulması doğru yolda olduğunu gösterir.",
+          "alt": "Eğer kalem zorluyorsa sadece ağzını abartılı açarak konuşmayı dene."
+        }
+      ],
+      "fallback": "Devam et, pes etme!"
+    },
+    {
+      "title": "Adım 3: Geliştirme / Derinleşme (Vurgu)",
+      "summary": {
+        "what": "Monotonluktan kurtulup vurgulu konuşmayı",
+        "duration": "15 Dk",
+        "why": "Robot gibi konuşmak dinleyicinin sıkılmasına neden olur."
+      },
+      "content": "<p>Şimdi okuduğun metindeki sadece YÜKLEM (son kelime) kısımlarında sesini hafifçe yükselt. Monotonluğu kırmak için sesine melodi kat.</p>",
+      "problems": [
+        {
+          "keywords": [
+            "garip",
+            "yapay",
+            "sahte"
+          ],
+          "answer": "Başlangıçta tiyatrocu gibi hissetmen normal. Zamanla oturacak.",
+          "alt": "Sevdiğin bir spikeri açıp aynısını taklit ederek başla."
+        }
+      ],
+      "fallback": "Ses tonu senin en güçlü silahın."
+    }
+  ],
+  "relatedCourses": [
+    "gitar",
+    "ingilizce"
+  ],
+  "difficultyLevel": "Başlangıç",
+  "skillPath": "General",
+  "categoryCluster": "Kişisel Gelişim"
+}
